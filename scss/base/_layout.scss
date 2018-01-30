@@ -1,17 +1,1 @@
-$grid_items: header, hero, content, footer;
 
-@each $item in $grid_items{
-    .#{$item} {
-        grid-area: {$item};
-    }
-}
-
-.container{
-    display: grid;
-    grid-template-columns: 10% 1fr 1fr 1fr 10%;
-    grid-template-areas:
-    "header header header header header"
-    "hero hero hero hero hero"
-    ". content content content ."
-    "footer footer footer footer"
-}
