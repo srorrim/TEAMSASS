@@ -7,9 +7,10 @@ footer {
     background-color: $secondarycolor;
     text-align: center;
     display: flex;
+    flex-direction: row;
 
     ul {
-        display: flex;
+        justify-content: flex-end;
         letter-spacing: 30px;
         text-align: center;
         color: $primarycolor;
@@ -18,13 +19,14 @@ footer {
     }
 
     li {
+        justify-content: flex-end;
         float: right;
         margin-top: 10px;
 
     }
 
     .logo {
-        float: left;
-        margin-right: 300px;
+        
+        justify-content: flex-start;
     }
 }

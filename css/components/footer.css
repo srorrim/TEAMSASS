@@ -19,16 +19,17 @@ footer {
   color: #BEB9C1;
   background-color: #C6C87E;
   text-align: center;
-  display: flex; }
+  display: flex;
+  flex-direction: row; }
   footer ul {
+    justify-content: flex-end;
     letter-spacing: 30px;
     text-align: center;
     color: #BEB9C1;
-    margin-top: 10px;
-    margin-right: 250px; }
+    margin-top: 10px; }
   footer li {
+    justify-content: flex-end;
     float: right;
     margin-top: 10px; }
   footer .logo {
-    float: left;
-    margin-right: 300px; }
+    justify-content: flex-start; }
