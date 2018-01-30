@@ -1,17 +1,30 @@
-@import "base/_variables.scss";
+@import 'scss/base/_variables.scss';
 
 footer {
-    width: 100%;
-    height: 300px;
+    width:100%;
+    height: 200px;
     color: $primarycolor;
     background-color: $secondarycolor;
+    text-align: center;
+    display: flex;
 
     ul {
+        display: flex;
         letter-spacing: 30px;
         text-align: center;
-     }
+        color: $primarycolor;
+        margin-top:10px;
 
-     .logo {
-         text-align: left;
-     }
+    }
+
+    li {
+        float: right;
+        margin-top: 10px;
+
+    }
+
+    .logo {
+        float: left;
+        margin-right: 300px;
+    }
 }
