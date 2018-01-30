@@ -1,51 +1,24 @@
 {
-
   "name": "teamsass",
-
   "version": "1.0.0",
-
   "description": "",
-
   "main": "index.js",
-
-  "dependencies": {
-
-    "gulp": "^3.9.1",
-
-    "gulp-sass": "^3.1.0"
-
-  },
-
-  "devDependencies": {},
-
   "scripts": {
-
     "test": "echo \"Error: no test specified\" && exit 1",
-
-    "gulp": "./node_modules/.bin/gulp",
-
-    "gulp-sass": "./node_modules/.bin/gulp-sass"
-
+    "gulp": "./node_modules/.bin/gulp"
   },
-
   "repository": {
-
     "type": "git",
-
     "url": "git+https://github.com/srorrim/TEAMSASS.git"
-
   },
-
   "author": "",
-
   "license": "ISC",
-
   "bugs": {
-
     "url": "https://github.com/srorrim/TEAMSASS/issues"
-
   },
-
-  "homepage": "https://github.com/srorrim/TEAMSASS#readme"
-
+  "homepage": "https://github.com/srorrim/TEAMSASS#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
 }
