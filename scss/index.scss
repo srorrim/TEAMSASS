@@ -1,11 +1,8 @@
 @import './base/_layout.scss';
-@import './base/_layout.scss';
-@import './base/_layout.scss';
+@import './base/_mixins.scss';
+@import './base/_variables.scss';
 
 @import './components/_header.scss';
 @import './components/_hero.scss';
 @import './components/_footer.scss';
-
-body{
-    background: blue;
-}
+@import './components/_blog_link.scss';

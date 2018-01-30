@@ -1,2 +1,8 @@
-body {
-  background: blue; }
+.blog_link {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  background: #BEB9C1; }
+  .blog_link .blog_text {
+    padding: 10px; }
