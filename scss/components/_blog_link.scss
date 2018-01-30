@@ -1,7 +1,12 @@
 .blog_link {
     @include post;
 
-    .blog_text{
+    .blog_text,
+    .blog_photo{
         padding: 10px;
+    }
+
+    .blog-text{
+        color: $secondarycolor;
     }
 }
