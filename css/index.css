@@ -1,2 +1,18 @@
+.social-icons {
+  position: relative;
+  display: inline-block;
+  letter-spacing: 50px;
+  padding: 0 50px;
+  float: right; }
+
+footer {
+  width: 100%;
+  height: 300px;
+  color: #BEB9C1;
+  background-color: #C6C87E; }
+  footer ul {
+    letter-spacing: 30px;
+    text-align: center; }
+
 body {
-  background: blue; }
+  background: #EAF0CE; }
