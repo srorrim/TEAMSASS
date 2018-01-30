@@ -1,9 +1,11 @@
 footer {
     width: 100%;
     height: 300px;
-    background-color: $primarycolor;
- ul {
-     letter-spacing: 30px;
-     text-align: center;
- }
+    color: $primarycolor;
+    background-color: $secondarycolor;
+
+    ul {
+        letter-spacing: 30px;
+        text-align: center;
+     }
 }
