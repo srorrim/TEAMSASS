@@ -4,5 +4,8 @@
   width: 80%;
   margin: 0 auto;
   background: #BEB9C1; }
-  .blog_link .blog_text {
+  .blog_link .blog_text,
+  .blog_link .blog_photo {
     padding: 10px; }
+  .blog_link .blog-text {
+    color: #C6C87E; }
