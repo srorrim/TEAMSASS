@@ -5,3 +5,11 @@
     margin: 0 auto;
     background: $primarycolor;
 }
+
+@mixin blog_image($image_path){
+    background: url($image_path);
+    background-size: cover;
+    background-position: center;
+    width: 75%;
+    margin: 10px;
+}
