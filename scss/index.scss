@@ -3,8 +3,8 @@
 @import './base/_layout.scss';
 
 @import './components/_header.scss';
-@import './components/_hero.scss';
-@import './components/_footer.scss';
+@import './components/hero.scss';
+@import './components/footer.scss';
 
 body{
     background: $backgroundcolor;
