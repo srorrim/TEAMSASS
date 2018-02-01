@@ -1,3 +1,78 @@
+header {
+  height: 80px;
+  background: red;
+  padding-top: 20px; }
+  header .logo {
+    height: 60px;
+    width: 60px;
+    padding-top: 7px; }
+
+.desktop-nav .logo {
+  float: left; }
+
+.desktop-nav ul {
+  float: right;
+  margin-top: 10px;
+  padding: 0;
+  width: calc(100% - 60px);
+  text-align: right; }
+
+.desktop-nav li {
+  display: inline-block;
+  margin-left: calc(90px - 30px); }
+
+.desktop-nav a, .desktop-nav a:visited {
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase; }
+
+.desktop-nav a:hover,
+.desktop-nav a:focus,
+.desktop-nav a:active {
+  opacity: .09%;
+  color: white;
+  text-decoration: none; }
+
+@media (max-width: 1020px) {
+  .desktop-nav {
+    display: block;
+    padding: 0; } }
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none; }
+    .desktop-nav .logo-container .logo {
+      display: inline-block; } }
+
+/* MOBILE */
+.mobile-nav {
+  display: none;
+  text-align: center; }
+  .mobile-nav .hamberburger-container,
+  .mobile-nav .search-container {
+    width: 40px;
+    display: inline-block;
+    background: black;
+    margin-left: -4px;
+    vertical-align: top;
+    margin-top: 8px; }
+  .mobile-nav .logo-container {
+    display: inline-block;
+    margin-left: -4px;
+    width: calc(100% - 100px); }
+  .mobile-nav button {
+    background: transparent;
+    border: none;
+    color: white; }
+  @media (max-width: 1020px) {
+    .mobile-nav {
+      display: none; } }
+  @media (max-width: 768px) {
+    .mobile-nav {
+      display: block; }
+      .mobile-nav .logo-container .logo {
+        display: inline-block; } }
+
 .social-icons {
   position: relative;
   display: inline-block;
