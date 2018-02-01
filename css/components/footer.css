@@ -20,16 +20,17 @@ footer {
   background-color: #C6C87E;
   text-align: center;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  justify-content: space-between; }
   footer ul {
-    justify-content: flex-end;
+    flex: auto;
     letter-spacing: 30px;
-    text-align: center;
     color: #BEB9C1;
-    margin-top: 10px; }
+    margin-top: 40px;
+    justify-content: flex-end; }
   footer li {
     justify-content: flex-end;
-    float: right;
     margin-top: 10px; }
   footer .logo {
-    justify-content: flex-start; }
+    justify-content: flex-start;
+    margin: 40px; }

@@ -8,25 +8,26 @@ footer {
     text-align: center;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
     ul {
-        justify-content: flex-end;
+        flex:auto;
         letter-spacing: 30px;
-        text-align: center;
         color: $primarycolor;
-        margin-top:10px;
+        margin-top:40px;
+        justify-content: flex-end;
 
     }
 
     li {
         justify-content: flex-end;
-        float: right;
         margin-top: 10px;
 
     }
 
     .logo {
-        
+
         justify-content: flex-start;
+        margin: 40px;
     }
 }
