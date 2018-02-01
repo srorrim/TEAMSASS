@@ -1,0 +1,36 @@
+.logo {
+  text-align: left;
+  height: 40px;
+  width: 40px; }
+
+a {
+  color: #BEB9C1; }
+
+.social-icons {
+  position: relative;
+  display: inline-block;
+  letter-spacing: 50px;
+  padding: 0 50px;
+  float: right; }
+
+footer {
+  width: 100%;
+  height: 200px;
+  color: #BEB9C1;
+  background-color: #C6C87E;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  footer ul {
+    flex: auto;
+    letter-spacing: 30px;
+    color: #BEB9C1;
+    margin-top: 40px;
+    justify-content: flex-end; }
+  footer li {
+    justify-content: flex-end;
+    margin-top: 10px; }
+  footer .logo {
+    justify-content: flex-start;
+    margin: 40px; }
