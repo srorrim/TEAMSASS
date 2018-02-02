@@ -3,14 +3,9 @@
 @import './base/_variables.scss';
 
 @import './components/_header.scss';
-<<<<<<< HEAD
 @import './components/_hero.scss';
 @import './components/_footer.scss';
 @import './components/_blog_link.scss';
-=======
-@import './components/hero.scss';
-@import './components/footer.scss';
->>>>>>> f603193456bcf157cce125584f8031957bad0e1b
 
 body{
     background: $backgroundcolor;

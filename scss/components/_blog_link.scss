@@ -16,14 +16,11 @@
         margin: 0;
         font-size: 28px;
     }
-
-    h3{
-
-    }
-
-    p{
-        text-align: justify;
-    }
+	
+	a{
+		color: #000;
+		text-decoration: none;
+	}
 
     .blog_photo{
         height: 33vh;
@@ -36,6 +33,7 @@
 
     #blog_page_p{
         padding: 20px;
+		text-align: justify;
     }
 
     @media(max-width:700px){
@@ -52,3 +50,21 @@
         }
     }
 }
+
+.blog_post_page{
+		display: flex;
+		flex-flow: column;
+		width: 80%;
+		padding: 20px;
+		margin: 0 auto;
+		background: $primarycolor;
+		
+		h2{
+			text-align: center;
+			font-size: 28px;
+		}
+		
+		p{
+			margin-top: 20px;
+		}
+	}
