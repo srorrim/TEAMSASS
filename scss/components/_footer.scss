@@ -20,8 +20,8 @@ footer {
   background-color: #C6C87E;
   text-align: center;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  width: 100%;}
   footer ul {
     flex: auto;
     letter-spacing: 30px;
@@ -34,3 +34,4 @@ footer {
   footer .logo {
     justify-content: flex-start;
     margin: 40px; }
+}

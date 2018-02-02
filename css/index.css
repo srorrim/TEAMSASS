@@ -1,3 +1,7 @@
+*{
+    text-decoration: none;
+}
+
 .social-icons {
   position: relative;
   display: inline-block;
@@ -8,17 +12,16 @@
 header {
   height: 80px;
   background: red;
-  padding-top: 20px; }
+  padding-top: 30px; }
   header .logo {
     height: 60px;
-    width: 60px;
-    padding-top: 7px; }
+    width: 60px; }
 
 .desktop-nav .logo {
-  float: left; }
+  float: left;
+  margin-left: 20px;}
 
 .desktop-nav ul {
-  float: right;
   margin-top: 10px;
   padding: 0;
   width: calc(100% - 60px);
@@ -126,8 +129,8 @@ footer {
   background-color: #C6C87E;
   text-align: center;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  width: 100%; }
 
 footer ul {
   flex: auto;
